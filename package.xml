@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>ws_service_pkg_3</name>
-  <version>1.0.1</version>
+  <version>1.1.2</version>
   <description>The ws_service_pkg_3 package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
