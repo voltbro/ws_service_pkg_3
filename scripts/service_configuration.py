@@ -7,7 +7,7 @@ import os
 import string
 
 
-configuration_number = "0011010011"
+configuration_number = "00110"
 
 print(os.system("ls -la"))
 
@@ -23,7 +23,7 @@ def print_random_str(l):
 
 print(print_random_str(12))
 
-version = "2.7.2"
+version = "2.7.5"
 
 print("Service package 3: ver. {}".format(version))
 time.sleep(0.5)
