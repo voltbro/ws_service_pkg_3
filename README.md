@@ -1,17 +1,22 @@
+### Installation
+
+```
+cd ~/ros_catkin_ws/src/
+git clone https://github.com/voltbro/ws_service_pkg_3.git
+```
+
+### Compilation
+
+```
+cd ~/ros_catkin_ws/
+sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/melodic --pkg=ws_service_pkg_3
+```
+
+
 ### Usage  
 
-Just run ./configure.sh
+Just run configure.launch
   
 ```
-cd ~/ros_catkin_ws/src/ws_service_pkg_3/
-./run/configure.sh
-```
-
-### Updating  
-
-Add new code to ./scripts/service_configuration.py  
-Then recompile it:  
-```
-cd ~/ros_catkin_ws/src/ws_service_pkg_3/
-./scripts/compile.sh
+roslaunch ws_service_pkg_3 configure.launch
 ```
