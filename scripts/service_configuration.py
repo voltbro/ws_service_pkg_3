@@ -7,8 +7,8 @@ import os
 import string
 
 
-configuration_number = "0011010011"
-version = "2.8.2"
+configuration_number = "001101"
+version = "2.8.22"
 
 print(os.system("ls -la"))
 
